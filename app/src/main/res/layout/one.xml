@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="60dp"
+    android:layout_marginStart="60dp"
     android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
@@ -21,16 +22,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:gravity="center_vertical"
+                android:shadowColor="#060606"
                 android:text="TextView"
-                android:textColor="#060606" />
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/NAME2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:gravity="center_vertical"
-                android:text="TextView"
-                android:textColor="#060606" />
+                android:text="@string/textview"
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/NAME3"
@@ -39,7 +41,9 @@
                 android:gravity="right|center_vertical"
                 android:shadowColor="#060606"
                 android:text="TextView"
-                android:textColor="#060606" />
+                android:textColor="#000000"
+                tools:ignore="RtlHardcoded" />
+
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>

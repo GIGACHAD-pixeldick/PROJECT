@@ -49,14 +49,14 @@
                 android:contentDescription="TODO" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName1"
+                android:id="@+id/parol"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:autofillHints=""
                 android:ems="10"
                 android:hint="введите пароль"
                 android:inputType="textPersonName"
-                tools:ignore="DuplicateIds"
-                android:autofillHints="" />
+                tools:ignore="DuplicateIds,TouchTargetSizeCheck" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
@@ -100,13 +100,14 @@
                 android:contentDescription="TODO" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName2"
+                android:id="@+id/pochta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:autofillHints=""
                 android:ems="10"
                 android:hint="введите почту"
                 android:inputType="textPersonName"
-                android:autofillHints="" />
+                tools:ignore="TouchTargetSizeCheck" />
 
         </LinearLayout>
 
